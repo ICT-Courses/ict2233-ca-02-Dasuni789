@@ -1,4 +1,15 @@
+/*Hero page*/
+
+ .myname{
+text-align: center;
+ margin-top: 100px;
+}
+
+
+
 /*Home page */
+
+
 
 body{
 background-color: rgb(192, 228, 198);
@@ -28,6 +39,14 @@ background-color: rgb(192, 228, 198);
     margin-bottom: 10px;
     text-align: center;
 }
+
+.my-photo {
+  border-radius: 2px; /* circle effect නැතුව rectangular */
+  display: block;
+  margin: 0 auto;  
+  border-color: #98baa9; /* center if needed */
+}
+
 
 .section-description {
     font-size: 1.1rem;
@@ -85,10 +104,14 @@ background-color: rgb(192, 228, 198);
 }
 
 .my-view-btn{
-  background-color: #28a745; 
-  border-color: #28a745;
-  color: white; 
+  background-color: #f8f9fa; 
+  border-color: #f8f9fa;
+  color: black;
   border-radius: 5px;
+  font-size: 14px !important; 
+  padding: 5px 10px !important; 
+  width: auto !important; 
+  display: inline-block !important;
 }
 
 .my-view-btn:hover {
@@ -97,17 +120,22 @@ background-color: rgb(192, 228, 198);
   color: black;
 }
 
-.my-contct-btn{
-  background-color: #f8f9fa; 
-  border-color:#f8f9fa;
-   color: black;
-  border-radius: 5px;
-
+.my-contct-btn {
+ background-color: #f8f9fa; 
+ border-color: #f8f9fa;
+ color: black;
+ border-radius: 5px;
+ font-size: 14px !important; 
+ padding: 5px 10px !important; 
+ width: auto !important;
+ display: inline-block !important;   
 }
+
 
 .my-contct-btn:hover {
   background-color: #218838; 
   border-color: #1e7e34;
+   color: black;
 }
 
 .dark {
@@ -150,11 +178,6 @@ background-color: rgb(192, 228, 198);
   color: white !important; 
 }
 
-.my-photo {
-  border: 2px solid#000000;  
-  border-radius: 50%;         
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
-}
 
 
 
@@ -172,18 +195,49 @@ background-color: rgb(192, 228, 198);
   font-weight: Bold;
 }
 
+
+.dark .card {
+   
+    background-color: #212529 !important; 
+    color: white !important; 
+    border-color: #495057 !important;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); 
+}
+
+
+.dark .about-header h1,
+.dark .about-header p,
+.dark .card h2,
+.dark .card h6,
+.dark .soft-skill-list h6,
+.dark .about-content p,
+.dark .card p {
+    color: white !important;
+}
+
+.dark .skill-badge {
+    background-color: #495057 !important; 
+    color: #f8f9fa !important; 
+}
+
+
+.dark .skill-group-container {
+    background-color: #343a40 !important;
+}
+
+
 .about-header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   
 }
 
-.header-abut,.header-para{
+.header-abut{
    text-align: center;
    font-weight: Bold;
 }
 .header-para{
-   text-align: justify;
+   text-align: center;
 }
 .about-header p {
 color: #666; 
@@ -289,6 +343,8 @@ color: #666;
   gap: 1.5rem;
   
 }
+
+
 /* Projects Page */
 .projects-page {
   padding: 4rem 2rem;
@@ -310,6 +366,9 @@ color: #666;
   color: #666;
 }
 
+ .pro-name{
+  font-weight: bold;
+ } 
 
 .projects-grid {
   display: grid;
@@ -420,13 +479,30 @@ color: #666;
 }
 
  .dark .footer-tit {
-  color: #000000;            
+  color: #ffffff;            
 }
 
 .dark .text {
-  color: #030303;           
+  color: #ffffff;           
 }
-;
+.dark .footer-cta-text{
+  background-color: #212529 !important; 
+  color: white !important;
+}
+
+.custom-btn {
+  background-color: #51b892; 
+  color: white;
+  border: none; 
+  border-radius: 3px;
+  padding: 10px 20px; 
+  font-size: 12px; 
+}
+
+.custom-btn:hover {
+  background-color: #19502f; 
+}
+
 
 
 
@@ -466,6 +542,10 @@ color: #666;
   .contact-hero {
     text-align: center;
     margin-bottom: 3rem;
+  }
+
+  .dark .get-call{
+    color: #ffffff;
   }
   
   .contact-hero h1 {
@@ -604,7 +684,7 @@ color: #666;
   }
 
   .nav-link:not(.active):hover {
-    color: #198754 !important;
+    color: #d5e4dd !important;
   }
   
 
