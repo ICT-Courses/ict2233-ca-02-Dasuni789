@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ICT-Courses/ict2233-ca-02-Dasuni789.git/static/css/main.1ed395e6.css",
+    "main.js": "/ICT-Courses/ict2233-ca-02-Dasuni789.git/static/js/main.99de9196.js",
+    "static/media/das.jpg": "/ICT-Courses/ict2233-ca-02-Dasuni789.git/static/media/das.1319c90791718f473fd2.jpg",
+    "static/media/coffeewebsite.png": "/ICT-Courses/ict2233-ca-02-Dasuni789.git/static/media/coffeewebsite.42bafa5547e8d62b56fc.png",
+    "static/media/furnituerfigma.png": "/ICT-Courses/ict2233-ca-02-Dasuni789.git/static/media/furnituerfigma.548aed6c7a17bc54a48a.png",
+    "static/media/companyexpenseve.png": "/ICT-Courses/ict2233-ca-02-Dasuni789.git/static/media/companyexpenseve.5c18c61cc2ad9a9ae410.png",
+    "index.html": "/ICT-Courses/ict2233-ca-02-Dasuni789.git/index.html",
+    "main.1ed395e6.css.map": "/ICT-Courses/ict2233-ca-02-Dasuni789.git/static/css/main.1ed395e6.css.map",
+    "main.99de9196.js.map": "/ICT-Courses/ict2233-ca-02-Dasuni789.git/static/js/main.99de9196.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ed395e6.css",
+    "static/js/main.99de9196.js"
+  ]
+}
