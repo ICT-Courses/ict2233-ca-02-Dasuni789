@@ -41,10 +41,10 @@ background-color: rgb(192, 228, 198);
 }
 
 .my-photo {
-  border-radius: 2px; /* circle effect නැතුව rectangular */
+  border-radius: 2px; 
   display: block;
   margin: 0 auto;  
-  border-color: #98baa9; /* center if needed */
+  border-color: #98baa9; 
 }
 
 
